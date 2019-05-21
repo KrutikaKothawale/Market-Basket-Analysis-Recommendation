@@ -11,10 +11,10 @@ This repository contains end-to-end tutorial-like code samples to help solve tex
 
 ### Prerequisites:
 
-*   [Scikit-learn](http://scikit-learn.org/stable/)
+*   [Scikit-learn] (http://scikit-learn.org/stable/)
 *   [Light Gradient boosting] (https://lightgbm.readthedocs.io/en/latest/)
 *   [Logistic Regression] (https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-*   [Truricreate] 
+*   [Truricreate] (https://medium.com/datadriveninvestor/how-to-build-a-recommendation-system-for-purchase-data-step-by-step-d6d7a78800b6)
 
 ### Modules:
 
@@ -26,7 +26,7 @@ We have one module for each step in the text classification workflow.
 + Do any pre-processing if required. For example, cleaning data (handling missing values, etc)
 
 
-2. **LightGBM_Final.ipynb*  -- Prediction Model
+2. **LightGBM_Final.ipynb**  -- Prediction Model
 
 + Merges and joins to datasets
 + Extensive Feature Engineering to get optimal results of prediction
@@ -34,7 +34,7 @@ We have one module for each step in the text classification workflow.
 + Build the model to predict if the customer will reorder or not
 + Calculated Metrics: F1_score, Precision, recall, ROC curve, AUC, Confusion Matrix
 
-3. *Logistic Regression.ipynb*   -- Prediction Model
+3. **Logistic Regression.ipynb**   -- Prediction Model
 
 + Merges and joins to datasets
 + Extensive Feature Engineering to get optimal results of prediction
@@ -42,14 +42,14 @@ We have one module for each step in the text classification workflow.
 + Build the model to predict if the customer will reorder or not
 + Calculated Metrics: F1_score, Precision, recall, ROC curve, AUC, Confusion Matrix
 
-4. *RecommendationModel.ipynb*  -- Recommendation Model
+4. **RecommendationModel.ipynb**  -- Recommendation Model
 
 + Create a utility matrix of user_product and their quantities
 + Normalized the data 
 + Train three models namely popularity, cosine, pearson using Turicreate 
 + Compare models based on precision, recall and RMSE Scores
 
-3. *LUIGI* - Pipelining
+3. **LUIGI** -- Pipelining
 
 + The jupyter notebooks are actually an another representation of the pipelined code:
 + For pipelining, we have used Luigi package
