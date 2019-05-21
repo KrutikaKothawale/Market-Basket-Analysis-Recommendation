@@ -1,9 +1,9 @@
 # Market-Basket-Analysis-Recommendation
 
-# Web Application Link : 
+### Web Application Link : 
 https://instacartanalytics.herokuapp.com/
 
-# Dataset :
+### Dataset :
 We have build models using the dataset below: 
 • https://www.instacart.com/datasets/grocery-shopping-2017
 
