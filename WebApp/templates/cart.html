@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Analytics team</title>
+	<link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+
+<div class="log-form">
+  <h2>Recommendation model</h2>
+	<label for="username">Current selected consumer is: {{username}}</label>
+  <form action="cartsubmit" method="post">
+	<input type="text" name="product" title="product" placeholder="product" />
+    <button type="submit" class="btn">Submit</button>
+  </form>
+
+</div>
+{% if tables %}
+<div class=page>
+  <h3>Cart:</h3>
+  {% for table in tables %}
+    <h2>{{titles[loop.index]}}</h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
+{% endif %}
+
+  </body>
+</html>
