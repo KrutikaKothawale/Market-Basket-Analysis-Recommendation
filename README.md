@@ -9,14 +9,15 @@ We have build models using the dataset below:
 
 This repository contains end-to-end tutorial-like code samples to help solve text classification problems using machine learning.
 
-# Prerequisites:
+### Prerequisites:
 
 *   [Scikit-learn](http://scikit-learn.org/stable/)
 *   [Light Gradient boosting] (https://lightgbm.readthedocs.io/en/latest/)
 *   [Logistic Regression] (https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 *   [Truricreate] 
 
-# Modules:
+### Modules:
+
 We have one module for each step in the text classification workflow.
 
 1. *Data Cleaning.ipynb* - Functions to load and clean data from different datasets. For each of the dataset we:
@@ -70,7 +71,7 @@ We have one module for each step in the text classification workflow.
 
 
 
-# CLAAT Document : 
+### CLAAT Document : 
 Project Proposal: https://codelabs-preview.appspot.com/?file_id=100MhnqZGVbRi3XDuG272nsCoKidBvNYNakn8gD9jRh0#0
 Report: https://codelabs-preview.appspot.com/?file_id=18fnXR4mLXmYJTgLYWbRml1yIPukWQVflZ4j0j070Sy8#0
 
