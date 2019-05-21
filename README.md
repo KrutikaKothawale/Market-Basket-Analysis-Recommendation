@@ -20,13 +20,13 @@ This repository contains end-to-end tutorial-like code samples to help solve tex
 
 We have one module for each step in the text classification workflow.
 
-1. *Data Cleaning.ipynb* - Functions to load and clean data from different datasets. For each of the dataset we:
+1. **Data Cleaning.ipynb** - Functions to load and clean data from different datasets. For each of the dataset we:
 
 + Read the required fields (texts and labels).
 + Do any pre-processing if required. For example, cleaning data (handling missing values, etc)
 
 
-2. *LightGBM_Final.ipynb*  -- Prediction Model
+2. **LightGBM_Final.ipynb*  -- Prediction Model
 
 + Merges and joins to datasets
 + Extensive Feature Engineering to get optimal results of prediction
@@ -72,6 +72,6 @@ We have one module for each step in the text classification workflow.
 
 
 ### CLAAT Document : 
-Project Proposal: https://codelabs-preview.appspot.com/?file_id=100MhnqZGVbRi3XDuG272nsCoKidBvNYNakn8gD9jRh0#0
-Report: https://codelabs-preview.appspot.com/?file_id=18fnXR4mLXmYJTgLYWbRml1yIPukWQVflZ4j0j070Sy8#0
++ Project Proposal: https://codelabs-preview.appspot.com/?file_id=100MhnqZGVbRi3XDuG272nsCoKidBvNYNakn8gD9jRh0#0
++ Report: https://codelabs-preview.appspot.com/?file_id=18fnXR4mLXmYJTgLYWbRml1yIPukWQVflZ4j0j070Sy8#0
 
